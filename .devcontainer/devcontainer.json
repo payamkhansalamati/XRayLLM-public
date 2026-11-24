@@ -1,0 +1,11 @@
+{
+  "name": "XRayLLM research environment",
+  "build": {"context": "..", "dockerfile": "../Dockerfile"},
+  "remoteEnv": {"PYTHONPATH": "/app"},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-python.vscode-pylance"],
+      "settings": {"python.defaultInterpreterPath": "/usr/local/bin/python"}
+    }
+  }
+}

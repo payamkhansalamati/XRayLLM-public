@@ -1,0 +1,11 @@
+.git
+.env
+output
+study_audit
+data/private
+*.xlsx
+*.jpg
+*.png
+*.zip
+.venv
+__pycache__

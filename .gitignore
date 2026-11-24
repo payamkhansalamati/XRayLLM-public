@@ -1,0 +1,88 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# =============================================================================
+# Virtual environments
+# =============================================================================
+.venv/
+venv/
+env/
+ENV/
+
+# =============================================================================
+# Environment / secrets  ← NEVER commit these
+# =============================================================================
+.env
+.env.*
+!.env.example
+.aws/
+.agents/
+.codex/
+release-private/
+study_audit/
+data/private/
+*.xlsx
+*.xls
+*.pdf
+*.docx
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# =============================================================================
+# Generated analysis outputs (re-created by running the scripts)
+# =============================================================================
+output/hard_20_train/*.jpg
+output/hard_20_train/*.png
+output/hard_20_train/results_summary.csv
+output/hard_20_train/model_usage_summary.csv
+output/hard_20_train/llm_teeth_summary.xlsx
+output/hard_20_train/index.html
+output/hard_20_train/*_raw.txt
+
+# =============================================================================
+# IDE / OS
+# =============================================================================
+.idea/
+.vscode/settings.json
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+!data/README.md
+output/
+results.csv
+summary.csv
+
+# Retained local execution helpers are excluded from the public export.
+scripts/checkpoint_dental_run.py
+scripts/pilot_exploratory_endpoints.py
+scripts/resume_approved_dental.py
+scripts/retry_first_astra_failure.py
+scripts/retry_hydrogen_pilot.py
+scripts/retry_neon_16384.py
+scripts/retry_neon_8192.py
+scripts/retry_scout_pilot.py
+scripts/retry_truncated_4096.py
+scripts/retry_truncated_dental.py
+scripts/run_approved_dental.py
+scripts/run_endpoint_pilot.py
+scripts/run_exploratory_4096.py
+scripts/run_exploratory_dental.py
+
+# OS/editor
+.DS_Store
+Thumbs.db

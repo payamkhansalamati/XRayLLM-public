@@ -1,0 +1,2 @@
+# Public study pipeline. Tests use Python's standard library unittest.
+PyYAML==6.0.3
